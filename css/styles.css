@@ -553,10 +553,19 @@ font-family: 'Roboto';
     }
 }
 .team-list {
+    flex-direction: row;
+    display: block;
+    gap: 24px;
+    list-style: none;
+    padding-left: 72px;
+}
+@media only screen and (min-width: 1158px) {
+    .team-list {
             flex-direction: row;
-                display: flex;
-                gap: 24px;
-                list-style: none;
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
 }
 .team-container {
     text-align: center;
