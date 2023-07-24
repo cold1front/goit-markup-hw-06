@@ -120,8 +120,7 @@ background-color: var(--background-color-white);
             background-color: #2E2F42;
                 display: flex;
                 justify-content: center;
-                padding-top: 188px;
-                padding-bottom: 188px;
+                padding: 112px 0;
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img19.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
@@ -522,6 +521,7 @@ font-family: 'Roboto';
         display: flex;
         justify-content: space-between;
         padding: 0 15px 0 15px;
+        height: 73px;
     }
 }
 @media only screen and (min-width: 1158px) {
@@ -570,6 +570,12 @@ font-family: 'Roboto';
     width: 396px;
     display: list-item;
 }
+@media only screen and (min-width: 768px) {
+    .li-item {
+        text-align: left;
+        display: list-item;
+    }
+}
 @media only screen and (min-width: 1158px) {
 .li-item {
     width: calc((100% - 3 * 24px) / 4);
@@ -590,7 +596,11 @@ font-family: 'Roboto';
     list-style: none;
 }
 @media only screen and (min-width: 768px) {
-
+    .adv-list {
+        display: flex;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (min-width: 1200px) {
     .adv-list {            
@@ -1249,6 +1259,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .section-advantages {
     padding-top: 96px;
     padding-bottom: 48px;
+}
+@media only screen and (min-width: 768px) {
+    .section-advantages {
+        display: block;
+    }
 }
 @media only screen and (min-width: 768px) {
     .address-item {
