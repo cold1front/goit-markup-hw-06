@@ -509,8 +509,6 @@ margin-bottom: 72px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px; */
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 /* Tablet styles */
 @media screen and (min-width: 768px) {
