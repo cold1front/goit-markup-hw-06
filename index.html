@@ -44,6 +44,56 @@
                     </li>
                 </ul>
             </address>
+            <header class="header-mob">
+                <button type="button" class="open-menu-btn" data-menu-open>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" fill="none">
+                        <g clip-path="url(#clip0_297053_2156)">
+                            <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42"
+                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_297053_2156">
+                                <rect width="32" height="22" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+                </div>
+            </header>
+            <div class="mob-menu is-hidden" data-menu>
+                <button type="button" class="close-menu-btn" data-menu-close>
+                    <svg class="menu-close-btn" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu-list list">
+                    <li class="mob-title-item"><a href="./index.html" class="mob-text-link link active">Studio</a></li>
+                    <li class="mob-title-item"><a href="./portfolio.html" class="mob-text-link link active">Portfolio</a></li>
+                    <li class="mob-title-item"><a href="" class="mob-text-link link active">Contacts</a></li>
+                </ul>
+                <address class="mob-address">
+                    <ul class="mob-soc-list list">
+                        <li class="mob-soc-item"><a class="mob-soc-title link tel-link" href="tel:+110001111111">+11 (000)
+                                111-11-11</a></li>
+                        <li class="mob-soc-item"><a class="mob-soc-title link mael-link"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <ul class="mob-icons">
+                    <li class="mob-icon-team"><a href="" class="mob-sending"><svg class="soc-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                            </svg></a></li>
+                    <li class="mob-icon-team"><a href="" class="mob-sending"><svg class="soc-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                            </svg></a></li>
+                    <li class="mob-icon-team"><a href="" class="mob-sending"><svg class="soc-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                            </svg></a></li>
+                    <li class="mob-icon-team"><a href="" class="mob-sending"><svg class="soc-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -460,5 +510,6 @@
     </div>
 </div>
 <script src="./modal.js"></script>
+<script defer src="./mobile-menu.js"></script>
 </body>
 </html>
