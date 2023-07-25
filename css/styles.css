@@ -1451,7 +1451,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     align-items: center;
     flex-shrink: 0;
 }
-
+.mob-address {
+    display: block;
+}
 .close-menu-btn {
     width: 24px;
     height: 24px;
@@ -1482,6 +1484,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 
 .mob-soc-list {
     margin-bottom: auto;
+    padding-top: 284px;
+    padding-left: 40px;
 }
 
 .mob-soc-item {
@@ -1514,6 +1518,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     display: flex;
     gap: 56px;
     margin-top: 40px;
+    padding-left: 40px;
 }
 
 .mael-link {
